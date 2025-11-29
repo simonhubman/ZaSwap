@@ -1,0 +1,51 @@
+.header {
+  background: transparent;
+  padding: 1rem 0 0.25rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.brand-mark {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+
+.brand-copy {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.brand-copy .sep {
+  color: #9ca3af;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.badge {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid rgba(67, 56, 202, 0.2);
+}
